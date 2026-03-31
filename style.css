@@ -1,0 +1,40 @@
+body {
+    background-color: #010102;
+}
+
+.titulo {
+    color: #ffb8a0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1in;
+}
+
+#yt-vids {
+    text-align: center;
+    margin: 40px;
+}
+
+.yt-vid{
+    box-shadow: 0px 0px 30px #434343;
+    border-radius: 15px;
+}
+
+img, video {
+    display: block;
+    margin: 0 auto 40px auto;
+}
+
+img, video, iframe {
+    border-radius: 15px;
+}
+
+
+
+img, video, iframe {
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease;
+}
+
+img:hover, video:hover, iframe:hover {
+    box-shadow: 0px 0px 20px 5px #da8534;
+}
